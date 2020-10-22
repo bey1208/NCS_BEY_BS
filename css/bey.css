@@ -1,0 +1,311 @@
+.gmarkeB{font-family: 'GmarketSansBold' !important;}
+.gmarkeM{font-family: 'GmarketSansMedium' !important;}
+.gmarkeL{font-family: 'S-CoreDream-4Regular' !important;}
+
+.Hcolor{color:#0e347e;}
+.navbar-fixed-top.navbar-expanded {padding: 0;}
+.navbar-inverse.navbar-expanded{background: none;}
+
+/* 필요없는 컨텐츠  */
+.no{display:none !important;}
+
+/* 헤더색상 검정색 */
+.navbar-inverse{background:none; min-height:0}
+
+/* 퀵메뉴  */
+.quick1{position:fixed; top:50%; transform: translateY(-50%); right: 25px;}
+.quick1 > li{float:none; font-size: 20px; text-align: right;}
+
+/* a클릭 혹은 하버시 색이 흰색이 됌 ㅠ  */
+.navbar-inverse .navbar-brand:focus,
+.navbar-inverse .navbar-brand:hover,{
+   color:#0e347e !important;
+   background-color: #f8f8f8 !important;
+   border-radius: 100%}
+
+   /* 퀵메뉴 클릭햇는데 색이 그대로 남는거..쫘중나 */
+.navbar-inverse .quick1 > li > a:focus,
+.navbar-inverse .quick1 > li > a:hover{
+  color:#fee800 !important;
+background-color: #0e347e !important;
+border-radius: 100%}
+
+/* 퀵메뉴 a 색상바꾸기 */
+.navbar-default .quick1 > li > a,
+.navbar-inverse .quick1 > li > a{border-radius: 50%; margin-top:5px; color:black}
+
+.navbar-default .quick1 > li > a:hover,
+.navbar-inverse .quick1 > li > a:hover{
+                   background-color: white;
+                   border-radius: 50%;}
+
+.navbar-inverse .quick1 > .active > a,
+.navbar-inverse .quick1 > .active > a:hover,
+.navbar-inverse .quick1 > .active > a:focus {
+  color: #fee800;
+  background-color: #11357f;
+  border-radius: 50%;
+}
+
+/* 1번째 페이지... 죽일넘 */
+#about {background-color: #f8f8f8}
+.about-content{background-color: white;
+               box-shadow: 2px 3px 5px rgba(0,0,0,.3);
+               height:250px; padding:15px;
+               margin-top:20px;}
+.about-content strong{ display:block; font-size: 25px; margin-top:5px; color:black}
+.about-content > span{font-size: 17px;
+                      font-family: 'S-CoreDream-4Regular'}
+
+ /* 창업문의 */
+.ppp{width:50px; height: 50px;
+    position:fixed; right:15px; bottom:9%;
+    background-color: #f8f8f8;
+    z-index:2000; border-radius: 100%;
+    overflow: hidden;
+    }
+.ppp a{ position:relative; display: block;
+        width:50px; height: 50px; font-size: 45px; color:white;
+       z-index: 3000 }
+
+.ppp p{ position: absolute; bottom:100px;right: 0;
+        line-height: 1; color:#0e347e;
+        font-size:18px; padding:7px; text-align: center;
+        font-family: 'GmarketSansMedium';
+        z-index: 2999; transition: 0.5s
+}
+
+.ppp a img{ width:40px; height: 35px; margin: 0 0 20px 5px;}
+
+.ppp:hover p{display:block; bottom:-10px}
+.ppp:hover a img{display: none;}
+
+/* top!  */
+.pp_{width:50px; height: 50px;
+        position:fixed; right:15px; bottom:16%;
+          background-color: #f8f8f8;
+        z-index:2000; border-radius: 100%;
+        }
+.navbar-brand{float:none; padding:0; line-height: 0}
+.pp_ .aa{ position:relative;
+            width:50px; height: 50px; font-size: 45px; color:#0e347e;
+            }
+
+.xi-arrow-up::before {
+    content: "\e915";
+    display: block;
+    margin-top: 23px;
+    margin-left: 3px;
+}
+ /* more */
+.bey2{background-color: #fee800; border-radius: 20px;
+      padding:10px 20px;
+      display: inline-block; margin-top:35px;
+      text-align: center;
+      color:black}
+
+ /* 신메뉴 유튜브 영상 */
+#pL #portfoliolist .new{float: none; width:100%}
+#pL #portfoliolist .new .portfolio-wrapper{background: none}
+#pL #portfoliolist .menu_view{}
+
+/* 유튜브 반응형 */
+#youtube{position: relative; height: 0; padding-bottom: 56%;}
+#youtube iframe{position: absolute; width: 100%; height: 100%; left: 0; top:0}
+
+
+/* 이미지 hover */
+#portfoliolist .mix .portfolio-wrapper img:hover{filter: grayscale(0); -webkit-filter: grayscale(0);}
+
+/* 글씨크기 */
+#filters > li span{font-family: 'GmarketSansMedium'; font-size:30px;}
+.caption-text a{font-family: 'GmarketSansMedium'; font-size:20px;}
+.caption-text span{font-family: 'S-CoreDream-4Regular'; font-size:16px;}
+.paik .caption-text a {font-size:19px;}
+
+#portfoliolist .mix .portfolio-wrapper .caption{height: 90px; bottom:-92px;}
+
+/* 메뉴 타이틀 색상 */
+#process h2{color:#0e347e}
+
+/* 창업안내 */
+.workUl{margin-top: 50px; padding: 15px; width:auto}
+.workUl li{list-style: none; display: inline-block;
+          vertical-align: top; text-align: left; margin: 10px;
+          background-color: white;
+          box-shadow: 2px 3px 5px rgba(0,0,0,.3);
+          padding: 15px 15px 0 15px;
+          float: none;
+          min-height: 262px}
+
+.workUl li p{}
+
+.workUl li dt{color:#0e347e !important; font-family: 'GmarketSansMedium';
+              font-size: 20px; line-height: 1; color:black;}
+.workUl li dd{font-family: 'S-CoreDream-4Regular'; font-size: 14px; line-height: 1.25;
+              margin-top:10px; }
+
+.container1{padding:0 auto;
+margin:0 auto; text-align: center;}
+
+@media (min-width: 768px) {
+  .container1 {
+    width: 750px;
+  }
+}
+@media (min-width: 1024px) {
+  .container1 {
+    width: 1024px;
+  }
+}
+@media (min-width: 1280px) {
+  .container1 {
+    width: 1280px;
+  }
+
+}
+@media (max-width: 768px){
+  .workUl li{display: block; padding:10%}
+}
+
+ /* 메뉴 밑 노란선 */
+#work .workUl hr{ max-width: 100px; border-top:2px solid #FFC153;
+                 border-bottom:0; margin:15px 0;}
+
+.navbar{min-width: 0}
+.portfolio-filter #filters li .filter {font-size: 18px; font-weight: normal;}
+
+ /* 창업안내 밑 박스 */
+#work .workDiv{border:2px solid  #FFC153; text-align: left;
+                background: white; padding:4%;}
+#work .workDiv strong{display: inline-block;
+        font-size: 20px; font-family: 'GmarketSansMedium';
+        margin-bottom:15px; color:#0e347e }
+#work .workDiv p{font-size:16px; font-family: 'S-CoreDream-4Regular'; line-height: 1}
+
+ /* 창업조건 */
+#pricing h2 {color:white;}
+.bey{display: none}
+
+.list-group::after{content: ""; display: block; clear: both;}
+.beyDlv{float: left; width: 50%; padding:5%}
+.beyDlvR{float: right; width: 50%}
+.list-group dl{text-align: left;}
+.list-group dt{font-family: 'S-CoreDream-4Regular'; font-size: 20px;
+                font-weight: bold; color:#0e347e}
+.list-group dd{font-family: 'S-CoreDream-4Regular'; font-size: 16px;}
+
+/* 하단 색상 변경 */
+.footer{background-color: #f5f5f5;}
+
+footer.footer{padding:0; background:#f5f5f5 }
+footer.footer .contact-details{margin:45px 0}
+.footer > div{color:black; }
+
+/* 하단 로고 */
+.footer .logo{display: inline-block; width: 179px; text-align:center}
+.footer .logo img{width: 100%}
+
+/* 하단 글씨 */
+footer.footer a {color:black}
+footer.footer p {font-size: 15px; line-height: 1; font-family: 'S-CoreDream-4Regular';
+                  color:#222}
+.navbar-inverse .navbar-brand:focus, .navbar-inverse .navbar-brand:hover{color:#0e347e  }
+
+/* 로고 밑 포트폴리오 바로가기 */
+.ncsdiva{list-style: none; margin-top:10px;}
+.ncsdiva > li{list-style: none; display: inline-block; text-align: left;}
+.ncsdiva > li a img{width:25px; margin-top:10}
+
+/* 하단 젤 밑 */
+footer.footer .copyright p.small{font-size: 12px; margin-bottom:30px;}
+
+/* 메뉴소개 마우스커서  */
+/* css885/popup1129 */
+.bestrel{position:relative;}
+.bestAbs{ position: absolute;
+left: 10%;
+top: 10%;
+padding: 10px;
+border-radius: 50%;
+font-size: 17px;
+color: #ffe600;
+background: #0e347e;
+z-index: 20000;
+line-height: 3;
+font-family: 'GmarketSansBold'
+}
+
+
+/* 스크롤~~~~ */
+.scrollDown {
+  position: absolute;
+bottom: 0;
+left: 50%;
+width: 35px;
+height: 50px;
+border: 2px solid #fff;
+border-radius: 20px;
+transform: translateX(-50%);
+z-index: 1;
+display: none;}
+
+.scrollDown .line {
+  position: absolute;
+  top: 5px;
+  left: 13px;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: #fff;
+  animation: aniMouse 1s ease-out infinite;}
+
+.scroll-down:after{display:none;
+content: "";
+width: 1px;
+height: 25px;
+background: #fff;
+position: absolute;
+left: 50%;
+bottom: -20px;
+}
+
+        @keyframes aniMouse{
+        	0%{top:5px;}
+        	50%{top:12px;}
+        	100%{top:5px;}
+        }
+        @-webkit-keyframes aniMouse{
+          0%{top:5px;}
+        	50%{top:12px;}
+        	100%{top:5px;}
+        }
+@media (min-width:800px){
+.scrollDown{display: block}
+.scroll-down:after{display: block}
+}
+
+/* 작은 미디어..퀵메뉴 */
+.quick{background: white; text-align: center;}
+.navbar-toggle{float: none; margin-left: 15px}
+
+.quick {border-bottom:1px solid #999}
+.navbar-default .navbar-toggle,
+.navbar-inverse .navbar-toggle{color:black}
+.navbar-default .navbar-nav > li > a,
+.navbar-inverse .navbar-nav > li > a{color:black}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:hover{color:#fee800}
+
+ /* 클리어없애귀 */
+
+#page-top .container:after,
+#page-top .navbar-header:after{display: none}
+
+  /* 메뉴버튼 클릭시 나오도록~~  */
+.quick{display: none}
+
+  @media(max-width:800px){
+    .quick1{display: none}
+    .quick{display: block}
+  }
